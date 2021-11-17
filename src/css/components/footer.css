@@ -1,0 +1,45 @@
+.footer__icon1:hover {
+  background-image: url("https://img.icons8.com/ios-filled/32/000000/mobile-home.png");
+  background-size: 100%;
+}
+
+.footer__icon2:hover {
+  background-image: url("https://img.icons8.com/ios-filled/32/000000/star--v1.png");
+  background-size: 100%;
+}
+
+.footer__icon3:hover {
+  background-image: url("https://img.icons8.com/ios-filled/32/000000/ball-point-pen.png");
+  background-size: 100%;
+}
+
+.footer__icon4:hover {
+  background-image: url("https://img.icons8.com/material-rounded/32/000000/user.png");
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer__list {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.footer__list li {
+  width: 25%;
+}

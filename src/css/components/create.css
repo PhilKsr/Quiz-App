@@ -1,0 +1,50 @@
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: var(--third-c);
+  color: black;
+  box-shadow: 3px 3px 5px #6b6b6b;
+  position: relative;
+}
+.new h3 {
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+.new__go {
+  border: 1px solid var(--correct-c);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--correct-c);
+  font-family: "Patrick Hand", cursive;
+  font-size: 17px;
+}
+.new__go:hover {
+  background-color: #5e8d6d;
+  border: 1px solid #5e8d6d;
+}
+
+.new__go:active {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.new__answer {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.new input:focus {
+  border: 2px solid var(--correct-c);
+  border-radius: 5px;
+  outline: none;
+}
+
+label {
+  padding-top: 5px;
+}
