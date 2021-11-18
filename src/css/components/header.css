@@ -42,7 +42,5 @@ h1 {
 
 .header__shaky:hover {
   transform: rotate(360deg);
-  xtransform: scalex(1.5);
-  xtransform: scalex(-1);
   transition: transform 0.8s ease;
 }
